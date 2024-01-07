@@ -1,0 +1,403 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            >
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="auto" />
+                    <ColumnDefinition Width="auto" />
+                    <ColumnDefinition Width="auto" />
+                    <ColumnDefinition Width="auto" />
+                </Grid.ColumnDefinitions>
+                
+                <Image
+                x:Name="zero1"
+                Source="zero.png"
+                HeightRequest="75"
+                Grid.Row="0"
+                Grid.Column="0"
+                HorizontalOptions="Center" />
+
+                <Image
+                x:Name="uno1"
+                Source="one.png"
+                HeightRequest="75"
+                Grid.Row="0"
+                Grid.Column="0"
+                HorizontalOptions="Center"
+                IsVisible="false"    />
+
+                <Image
+                x:Name="due1"
+                Source="two.png"
+                HeightRequest="75"
+                Grid.Row="0"
+                Grid.Column="0"
+                HorizontalOptions="Center"
+                IsVisible="false" />
+
+                <Image
+                x:Name="tre1"
+                Source="three.png"
+                HeightRequest="75"
+                Grid.Row="0"
+                Grid.Column="0"
+                HorizontalOptions="Center" 
+                IsVisible="false" />
+
+                <Image
+                x:Name="quattro1"
+                Source="four.png"
+                HeightRequest="75"
+                Grid.Row="0"
+                Grid.Column="0"
+                HorizontalOptions="Center"
+                    IsVisible="false" />
+
+                <Image
+                x:Name="cinque1"
+                Source="five.png"
+                HeightRequest="75"
+                Grid.Row="0"
+                Grid.Column="0"
+                HorizontalOptions="Center"
+                    IsVisible="false" />
+
+                <Image
+                x:Name="sei1"
+                Source="six.png"
+                HeightRequest="75"
+                Grid.Row="0"
+                Grid.Column="0"
+                HorizontalOptions="Center" 
+                    IsVisible="false" />
+
+                <Image
+                x:Name="sette1"
+                Source="seven.png"
+                HeightRequest="75"
+                Grid.Row="0"
+                Grid.Column="0"
+                HorizontalOptions="Center"
+                    IsVisible="false" />
+
+                <Image
+                x:Name="otto1"
+                Source="eight.png"
+                HeightRequest="75"
+                Grid.Row="0"
+                Grid.Column="0"
+                HorizontalOptions="Center"
+                    IsVisible="false" />
+
+                <Image
+                x:Name="nove1"
+                Source="nine.png"
+                HeightRequest="75"
+                Grid.Row="0"
+                Grid.Column="0"
+                HorizontalOptions="Center"
+                    IsVisible="false" />
+
+
+
+                <Image
+                x:Name="zero2"
+                Source="zero.png"
+                HeightRequest="75"
+                Grid.Row="0"
+                Grid.Column="1"
+                HorizontalOptions="Center" />
+
+                <Image
+                x:Name="uno2"
+                Source="one.png"
+                HeightRequest="75"
+                Grid.Row="0"
+                Grid.Column="1"
+                HorizontalOptions="Center"
+                    IsVisible="false" />
+
+                <Image
+                x:Name="due2"
+                Source="two.png"
+                HeightRequest="75"
+                Grid.Row="0"
+                Grid.Column="1"
+                HorizontalOptions="Center"
+                    IsVisible="false" />
+
+                <Image
+                x:Name="tre2"
+                Source="three.png"
+                HeightRequest="75"
+                Grid.Row="0"
+                Grid.Column="1"
+                HorizontalOptions="Center"
+                    IsVisible="false" />
+
+                <Image
+                x:Name="quattro2"
+                Source="four.png"
+                HeightRequest="75"
+                Grid.Row="0"
+                Grid.Column="1"
+                HorizontalOptions="Center"
+                    IsVisible="false" />
+
+                <Image
+                x:Name="cinque2"
+                Source="five.png"
+                HeightRequest="75"
+                Grid.Row="0"
+                Grid.Column="1"
+                HorizontalOptions="Center"
+                    IsVisible="false" />
+
+                <Image
+                x:Name="sei2"
+                Source="six.png"
+                HeightRequest="75"
+                Grid.Row="0"
+                Grid.Column="1"
+                HorizontalOptions="Center"
+                    IsVisible="false" />
+
+                <Image
+                x:Name="sette2"
+                Source="seven.png"
+                HeightRequest="75"
+                Grid.Row="0"
+                Grid.Column="1"
+                HorizontalOptions="Center"
+                    IsVisible="false" />
+
+                <Image
+                x:Name="otto2"
+                Source="eight.png"
+                HeightRequest="75"
+                Grid.Row="0"
+                Grid.Column="1"
+                HorizontalOptions="Center"
+                    IsVisible="false" />
+
+                <Image
+                x:Name="nove2"
+                Source="nine.png"
+                HeightRequest="75"
+                Grid.Row="0"
+                Grid.Column="1"
+                HorizontalOptions="Center"
+                    IsVisible="false" />
+
+
+                <Image
+                x:Name="zero3"
+                Source="zero.png"
+                HeightRequest="75"
+                Grid.Row="0"
+                Grid.Column="2"
+                HorizontalOptions="Center"/>
+
+                <Image
+                x:Name="uno3"
+                Source="one.png"
+                HeightRequest="75"
+                Grid.Row="0"
+                Grid.Column="2"
+                HorizontalOptions="Center"
+                    IsVisible="false" />
+
+                <Image
+                x:Name="due3"
+                Source="two.png"
+                HeightRequest="75"
+                Grid.Row="0"
+                Grid.Column="2"
+                HorizontalOptions="Center"
+                    IsVisible="false" />
+
+                <Image
+                x:Name="tre3"
+                Source="three.png"
+                HeightRequest="75"
+                Grid.Row="0"
+                Grid.Column="2"
+                HorizontalOptions="Center"
+                    IsVisible="false" />
+
+                <Image
+                x:Name="quattro3"
+                Source="four.png"
+                HeightRequest="75"
+                Grid.Row="0"
+                Grid.Column="2"
+                HorizontalOptions="Center"
+                    IsVisible="false" />
+
+                <Image
+                x:Name="cinque3"
+                Source="five.png"
+                HeightRequest="75"
+                Grid.Row="0"
+                Grid.Column="2"
+                HorizontalOptions="Center"
+                    IsVisible="false" />
+
+                <Image
+                x:Name="sei3"
+                Source="six.png"
+                HeightRequest="75"
+                Grid.Row="0"
+                Grid.Column="2"
+                HorizontalOptions="Center"
+                    IsVisible="false" />
+
+                <Image
+                x:Name="sette3"
+                Source="seven.png"
+                HeightRequest="75"
+                Grid.Row="0"
+                Grid.Column="2"
+                HorizontalOptions="Center"
+                    IsVisible="false" />
+
+                <Image
+                x:Name="otto3"
+                Source="eight.png"
+                HeightRequest="75"
+                Grid.Row="0"
+                Grid.Column="2"
+                HorizontalOptions="Center"
+                    IsVisible="false" />
+
+                <Image
+                x:Name="nove3"
+                Source="nine.png"
+                HeightRequest="75"
+                Grid.Row="0"
+                Grid.Column="2"
+                HorizontalOptions="Center"
+                    IsVisible="false" />
+
+                <Image
+                x:Name="zero4"
+                Source="zero.png"
+                HeightRequest="75"
+                Grid.Row="0"
+                Grid.Column="3"
+                HorizontalOptions="Center" />
+                
+
+                <Image
+                x:Name="uno4"
+                Source="one.png"
+                HeightRequest="75"
+                Grid.Row="0"
+                Grid.Column="3"
+                HorizontalOptions="Center" 
+                    IsVisible="false" />
+
+                <Image
+                x:Name="due4"
+                Source="two.png"
+                HeightRequest="75"
+                Grid.Row="0"
+                Grid.Column="3"
+                HorizontalOptions="Center" 
+                    IsVisible="false" />
+
+                <Image
+                x:Name="tre4"
+                Source="three.png"
+                HeightRequest="75"
+                Grid.Row="0"
+                Grid.Column="3"
+                HorizontalOptions="Center" 
+                    IsVisible="false" />
+
+                <Image
+                x:Name="quattro4"
+                Source="four.png"
+                HeightRequest="75"
+                Grid.Row="0"
+                Grid.Column="3"
+                HorizontalOptions="Center" 
+                    IsVisible="false" />
+
+                <Image
+                x:Name="cinque4"
+                Source="five.png"
+                HeightRequest="75"
+                Grid.Row="0"
+                Grid.Column="3"
+                HorizontalOptions="Center"
+                    IsVisible="false" />
+
+                <Image
+                x:Name="sei4"
+                Source="six.png"
+                HeightRequest="75"
+                Grid.Row="0"
+                Grid.Column="3"
+                HorizontalOptions="Center" 
+                    IsVisible="false" />
+
+                <Image
+                x:Name="sette4"
+                Source="seven.png"
+                HeightRequest="75"
+                Grid.Row="0"
+                Grid.Column="3"
+                HorizontalOptions="Center"
+                    IsVisible="false" />
+
+                <Image
+                x:Name="otto4"
+                Source="eight.png"
+                HeightRequest="75"
+                Grid.Row="0"
+                Grid.Column="3"
+                HorizontalOptions="Center"
+                    IsVisible="false" />
+
+                <Image
+                x:Name="nove4"
+                Source="nine.png"
+                HeightRequest="75"
+                Grid.Row="0"
+                Grid.Column="3"
+                HorizontalOptions="Center"
+                    IsVisible="false" />
+
+            </Grid>
+
+             <Label
+              Text="Nuovo livello!"
+              TextColor="#fff200"
+              FontFamily="OpenSans-Semibold.ttf"/>
+
+            <Button
+                    x:Name="Contatorediprova"
+                    Text="Incrementa"
+                    SemanticProperties.Hint="Counts the number of times you click"
+                    HorizontalOptions="Center"
+                    Clicked="OnContatorediProvaClicked" />
+
+
+
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
